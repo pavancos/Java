@@ -8,6 +8,5 @@ public class factorial {
         for(int i=1;i<=a;i++)
         fact*=i;
         System.out.println(fact);
-
     }
 }
