@@ -1,5 +1,4 @@
 import java.util.*;
-import java.lang.*;
 public class palindrome {
     boolean pal(String S){
         String revStr="";
