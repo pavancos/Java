@@ -1,1 +1,1 @@
-# JavaLab
+# Java
