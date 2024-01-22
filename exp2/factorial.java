@@ -12,5 +12,6 @@ public class factorial {
         int a=scan.nextInt();
         int fact=factorial.factor(a);
         System.out.println(fact);
+        scan.close();
     }
 }
