@@ -13,7 +13,7 @@ public class prime {
     void prm(int n){
         prime Check = new prime();
         System.out.println("Primes upto "+n+" :");
-        for(int i=0;i<n;i++){
+        for(int i=2;i<n;i++){
             if((Check.prmCheck(i))){
                 System.out.print(i+" ");
             }
