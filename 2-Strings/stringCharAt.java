@@ -2,7 +2,7 @@
 //6.Write a program to find the first and the last occurence of the letter 'o' and character ',' in "Hello, World".
 import java.util.*;
 
-public class stringcharcount {
+public class stringCharAt {
     public static void main(String[] args) {
         Scanner get = new Scanner(System.in);
         String text = new String(get.nextLine());
