@@ -1,6 +1,6 @@
 // Write a program to check if the letter 'e' is present in the word 'Umbrella'.
 import java.util.Scanner;
-public class stringIfPresent {
+public class stringifpresent {
     public static void main(String[] args) {
         Scanner get = new Scanner(System.in);
         String a = new String(get.next());

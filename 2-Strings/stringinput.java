@@ -1,6 +1,6 @@
 // Write a program to print a string entered by user.
 import java.util.*;
-public class stringInput{
+public class stringinput{
     public static void main(String[] args){
         Scanner get=new Scanner(System.in);
         String a=get.next();
