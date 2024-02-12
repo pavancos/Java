@@ -5,19 +5,16 @@ public class numberOL {
         return s;
 
     }
-
     static int sum(int a, int b, int c) {
         int s = 0;
         s = a + b + c;
         return s;
     }
-
     static int sum(int a, int b, int c, int d) {
         int s = 0;
         s = a + b + c + d;
         return s;
     }
-
     public static void main(String[] args) {
         int result = 0;
         result = sum(1, 2);

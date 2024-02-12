@@ -1,6 +1,6 @@
 class Shape {
     public double calculateArea() {
-        return 0; // Default implementation returns 0
+        return 0;
     }
 }
 
@@ -12,7 +12,7 @@ class Circle extends Shape {
     }
 
     public double calculateArea() {
-        return Math.PI * radius * radius; // Calculate area of circle
+        return Math.PI * radius * radius;
     }
 }
 
