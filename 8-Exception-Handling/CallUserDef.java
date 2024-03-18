@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class UserDef extends Exception{
     public UserDef(String args){
         super(args);
