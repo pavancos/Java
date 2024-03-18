@@ -1,5 +1,5 @@
-public class TDemo2 {
-    public TDemo2(){
+public class SThrow {
+    public SThrow(){
         try{
         throw new ArithmeticException("hello");
         }
@@ -14,7 +14,7 @@ public class TDemo2 {
 class ThrowDemo2 {
     public static void main(String args[]) {
         try {
-            TDemo2 obj = new TDemo2();
+            SThrow obj = new SThrow();
         } catch (ArithmeticException e) {
             System.out.println("ReCaught");
         }
