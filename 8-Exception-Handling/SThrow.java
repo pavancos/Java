@@ -1,5 +1,5 @@
-public class SThrow {
-    public SThrow() {
+class ThrowDemo{
+    public ThrowDemo() {
         try {
             throw new ArithmeticException("hello");
         } catch (ArithmeticException e) {
@@ -9,10 +9,10 @@ public class SThrow {
     }
 }
 
-class ThrowDemo2 {
-    public static void main(String args[]) {
+public class SThrow {
+    public static void main(String[] args) {
         try {
-            SThrow obj = new SThrow();
+            ThrowDemo obj = new ThrowDemo();
         } catch (ArithmeticException e) {
             System.out.println("ReCaught");
         }
