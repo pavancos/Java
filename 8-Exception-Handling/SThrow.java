@@ -1,14 +1,12 @@
 public class SThrow {
-    public SThrow(){
-        try{
-        throw new ArithmeticException("hello");
+    public SThrow() {
+        try {
+            throw new ArithmeticException("hello");
+        } catch (ArithmeticException e) {
+            System.out.println("Caught");
+            throw e;
         }
-        catch(ArithmeticException e)
-        {
-        System.out.println("Caught");
-        throw e;
-        }
-        }
+    }
 }
 
 class ThrowDemo2 {
