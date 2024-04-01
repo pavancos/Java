@@ -1,5 +1,5 @@
 class Hello {
-    void display() {
+    public void display() {
         Thread t = Thread.currentThread();
         for (int i = 1; i <= 3; i++) {
             System.out.print(t.getName()+" ");
@@ -11,7 +11,6 @@ class Hello {
         }
     }
 }
-
 class T extends Thread {
     Hello hlo;
     T(Hello hlo) {
@@ -21,15 +20,12 @@ class T extends Thread {
         hlo.display();
     }
 }
-
 class NoSync {
     public static void main(String args[]) {
         Hello hlo=new Hello();
         T t1 = new T(hlo);
         T t2 = new T(hlo);
         T t3 = new T(hlo);
-        t1.start();
-        t2.start();
-        t3.start();
+        t1.start();t2.start();t3.start();
     }
 }
