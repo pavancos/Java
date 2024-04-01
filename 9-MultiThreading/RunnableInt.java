@@ -1,7 +1,7 @@
 class Hi implements Runnable {
     public void run() {
         for (int i = 1; i <= 5; i++) {
-            System.out.println(Thread.currentThread());
+            System.out.print(Thread.currentThread()+" ");
             System.out.println("Hi");
             try {
                 Thread.sleep(1000);
@@ -14,7 +14,7 @@ class Hi implements Runnable {
 class Hello implements Runnable {
     public void run() {
         for (int i = 1; i <= 5; i++) {
-            System.out.println(Thread.currentThread());
+            System.out.print(Thread.currentThread()+" ");
             System.out.println("Hello");
             try {
                 Thread.sleep(1000);
