@@ -3,7 +3,6 @@ abstract class Person{
     abstract void eat();
     abstract void exercise();
 }
-
 class LazyFellow extends Person{
     public void eat(){
         System.out.println("Lazy ppl Eat Junk");
